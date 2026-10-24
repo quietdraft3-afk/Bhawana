@@ -52,7 +52,7 @@ export default function AboutAdmin() {
     setMsg(null);
     try {
       await saveCollection("site", site);
-      setMsg({ kind: "ok", text: "Saved! Your profile is updated on the website." });
+      setMsg({ kind: "ok", text: "Saved! Your profile will update on the website in about a minute." });
       window.scrollTo({ top: 0, behavior: "smooth" });
     } catch (e) {
       setMsg({ kind: "err", text: e.message });

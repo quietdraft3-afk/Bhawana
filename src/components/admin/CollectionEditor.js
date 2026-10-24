@@ -89,7 +89,7 @@ export default function CollectionEditor({
     const next = editing === "new"
       ? [item, ...items]
       : items.map((it, i) => (i === editing ? item : it));
-    await persist(next, "Saved! Your changes are now live on the website.");
+    await persist(next, "Saved! Your changes will appear on the website in about a minute.");
   }
 
   async function onDelete(i) {

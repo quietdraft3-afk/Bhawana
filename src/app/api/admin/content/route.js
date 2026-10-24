@@ -10,7 +10,7 @@ export async function GET(req) {
   if (!isValidCollection(file)) {
     return NextResponse.json({ error: "Unknown collection." }, { status: 400 });
   }
-  return NextResponse.json(await readContent(file));
+  return NextResponse.json(await readContent(file, { fresh: true }));
 }
 
 export async function PUT(req) {
@@ -24,6 +24,10 @@ export async function PUT(req) {
   if (typeof data !== "object" || data === null) {
     return NextResponse.json({ error: "Invalid data." }, { status: 400 });
   }
-  await writeContent(file, data);
+  try {
+    await writeContent(file, data);
+  } catch (e) {
+    return NextResponse.json({ error: e.message }, { status: 500 });
+  }
   return NextResponse.json({ ok: true });
 }

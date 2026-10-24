@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import { githubEnabled, readRepoFile } from "@/lib/github";
 
 const TYPES = {
   ".jpg": "image/jpeg",
@@ -24,15 +25,20 @@ export async function GET(req, { params }) {
   const ext = path.extname(full).toLowerCase();
   const type = TYPES[ext];
   if (!type) return new Response("Not found", { status: 404 });
+  let data;
   try {
-    const data = await fs.readFile(full);
-    return new Response(data, {
-      headers: {
-        "Content-Type": type,
-        "Cache-Control": "public, max-age=31536000, immutable",
-      },
-    });
+    data = await fs.readFile(full);
   } catch {
-    return new Response("Not found", { status: 404 });
+    // Uploaded since the last deploy — fetch it from the repo instead.
+    if (githubEnabled()) {
+      data = (await readRepoFile(`uploads/${path.relative(dir, full).replace(/\\/g, "/")}`).catch(() => null))?.data;
+    }
   }
+  if (!data) return new Response("Not found", { status: 404 });
+  return new Response(data, {
+    headers: {
+      "Content-Type": type,
+      "Cache-Control": "public, max-age=31536000, immutable",
+    },
+  });
 }

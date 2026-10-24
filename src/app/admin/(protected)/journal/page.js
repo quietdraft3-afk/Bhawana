@@ -24,7 +24,7 @@ export default function JournalAdmin() {
       <CollectionEditor
         file="journal"
         title="Posts"
-        intro="Write like you're telling a friend about it. Add a nice cover picture, write your story, add photos below it — then press Save and it's live."
+        intro="Write like you're telling a friend about it. Add a nice cover picture, write your story, add photos below it — then press Save and it'll be live in about a minute."
         schema={SCHEMA}
         hasSlug
         listTitle={(p) => p.title || "(untitled)"}

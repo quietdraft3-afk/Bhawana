@@ -10,7 +10,7 @@ export async function POST(req) {
     if (!name || !email || !message) {
       return NextResponse.json({ error: "All fields are required." }, { status: 400 });
     }
-    const data = await readContent("messages");
+    const data = await readContent("messages", { fresh: true });
     data.items = data.items || [];
     data.items.unshift({
       name,

@@ -15,7 +15,7 @@ const CARDS = [
 export default function AdminDashboard() {
   return (
     <>
-      <AdminHeader title="Website Dashboard" sub="Choose what you want to update. Changes go live as soon as you press Save." />
+      <AdminHeader title="Website Dashboard" sub="Choose what you want to update. Changes go live about a minute after you press Save." />
       <div className="admin-help">
         💡 <strong>How it works:</strong> pick a section below, then use <em>Add new</em> or <em>Edit</em>.
         Every form has a Save button — nothing changes on the website until you press it.

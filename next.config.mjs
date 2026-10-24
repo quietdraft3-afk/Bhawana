@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Content lives in JSON files that the admin dashboard edits at runtime,
-  // so pages must not be frozen at build time.
-  experimental: {},
+  // Content and uploads are read from disk at request time, so make sure
+  // they're bundled with the server functions when deployed.
+  outputFileTracingIncludes: {
+    "/**": ["./content/**/*"],
+    "/uploads/[...file]": ["./uploads/**/*"],
+  },
 };
 
 export default nextConfig;

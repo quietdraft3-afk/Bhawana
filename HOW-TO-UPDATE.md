@@ -14,7 +14,7 @@ Hi Bhawana! 👋 This is your guide to updating the website yourself.
 ## 2. The golden rules
 
 - **Nothing changes until you press Save.** Feel free to explore.
-- **Changes go live immediately after Save.** Open the website in another tab and refresh to see them.
+- **Changes go live about a minute after Save.** Open the website in another tab and refresh to see them.
 - Every form field has a small grey hint explaining what it's for.
 - Use the **↑ ↓ buttons** to change the order things appear on the website.
 
@@ -68,8 +68,22 @@ npm run build   # build for production
 npm start       # run the production site
 ```
 
-Deployment note: this site saves content and images to files on the server,
-so host it on something with a persistent disk — a small VPS, Railway, Render
-(with a disk), or any Node.js hosting. Set the environment variables
-`ADMIN_PASSWORD`, `SESSION_SECRET` (any long random text) and `SITE_URL`
-(your real domain, e.g. https://bhawanaaryal.com.np) in production.
+Deployment (Vercel): the site is hosted on Vercel, which has no writable disk,
+so when `GITHUB_TOKEN` and `GITHUB_REPO` are set, the admin dashboard saves
+content and uploads by committing them to the GitHub repo. Each content save
+triggers a Vercel rebuild (~1 minute). Uploads and messages are committed with
+`[skip deploy]` in the message, which `vercel.json` uses to skip the rebuild.
+
+Environment variables to set in Vercel:
+- `ADMIN_PASSWORD` — the admin login password
+- `SESSION_SECRET` — any long random text
+- `GITHUB_TOKEN` — fine-grained GitHub token with Contents: Read and write on this repo only
+- `GITHUB_REPO` — e.g. `quietdraft3-afk/Bhawana`
+- `GITHUB_BRANCH` — optional, defaults to `main`
+- `SITE_URL` — optional, defaults to https://bhawanaaryal.com.np
+
+Because the dashboard commits to GitHub, run `git pull` before changing code
+locally so you don't overwrite Bhawana's edits.
+
+Without the GitHub variables (e.g. when running locally), everything is saved
+to the `content` and `uploads` folders on disk instead.

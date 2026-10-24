@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import { githubEnabled, readRepoFile, writeRepoFile } from "./github";
 
 const CONTENT_DIR = path.join(process.cwd(), "content");
 
@@ -18,14 +19,29 @@ export function isValidCollection(name) {
   return COLLECTIONS.includes(name);
 }
 
-export async function readContent(name) {
+// `fresh` reads the latest saved version from GitHub instead of the copy
+// bundled with the current deploy — the admin needs it so a second edit made
+// before the rebuild finishes doesn't undo the first.
+export async function readContent(name, { fresh = false } = {}) {
   if (!isValidCollection(name)) throw new Error(`Unknown collection: ${name}`);
+  if (fresh && githubEnabled()) {
+    const file = await readRepoFile(`content/${name}.json`);
+    if (file) return JSON.parse(file.data.toString("utf-8"));
+  }
   const raw = await fs.readFile(path.join(CONTENT_DIR, `${name}.json`), "utf-8");
   return JSON.parse(raw);
 }
 
 export async function writeContent(name, data) {
   if (!isValidCollection(name)) throw new Error(`Unknown collection: ${name}`);
+  if (githubEnabled()) {
+    // Messages never appear on the public site, so don't rebuild for them.
+    const message = name === "messages"
+      ? "Update messages [skip deploy]"
+      : `Update ${name} from admin dashboard`;
+    await writeRepoFile(`content/${name}.json`, JSON.stringify(data, null, 2), message);
+    return;
+  }
   const file = path.join(CONTENT_DIR, `${name}.json`);
   // Keep one backup of the previous version so a bad save is never fatal.
   try {

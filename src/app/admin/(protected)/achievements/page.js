@@ -85,7 +85,7 @@ export default function AchievementsAdmin() {
     setMsg(null);
     try {
       await saveCollection("site", site);
-      setMsg({ kind: "ok", text: "Saved! Changes are live." });
+      setMsg({ kind: "ok", text: "Saved! Changes will appear on the website in about a minute." });
       window.scrollTo({ top: 0, behavior: "smooth" });
     } catch (e) {
       setMsg({ kind: "err", text: e.message });
