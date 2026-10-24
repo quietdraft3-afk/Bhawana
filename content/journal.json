@@ -1,11 +1,22 @@
 {
   "items": [
     {
+      "date": "2026-10-24",
+      "category": "Personal",
+      "gallery": [],
+      "tags": [],
+      "title": "Something",
+      "slug": "something"
+    },
+    {
       "slug": "welcome-to-my-corner",
       "title": "Welcome to my corner of the internet",
       "date": "2026-08-11",
       "category": "Personal",
-      "tags": ["welcome", "reflections"],
+      "tags": [
+        "welcome",
+        "reflections"
+      ],
       "cover": "/placeholders/generic-a.svg",
       "excerpt": "Why I made this space — a home for my architecture, research, travels and everything in between.",
       "body": "Namaste, and welcome!\n\nThis website is my personal space on the internet — somewhere between a studio, a notebook and a photo album. Here you will find my architecture and urban design work, the research I am slowly chipping away at, and the travels, events and small moments that shape how I see cities and spaces.\n\n## Why a journal?\n\nArchitecture school taught me to present finished work — clean boards, final renders. But most of what I love happens in between: the field visits, the sketches that go nowhere, the conversations on-site, the streets that surprise you. This journal is for those in-between things.\n\nExpect travel notes, reflections from the USYC 2026 cohort, research updates, photo stories and the occasional unfiltered thought about Kathmandu's streets.\n\nThanks for stopping by — and do say hello through the connect page!",
