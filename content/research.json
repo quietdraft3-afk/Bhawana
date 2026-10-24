@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "slug": "15-minute-city-kathmandu",
+      "title": "A Comparative Study of Two Kathmandu Neighborhoods Through a 15-Minute-City Lens",
+      "status": "Currently working",
+      "year": "2025 – ongoing",
+      "collaborators": "",
+      "abstract": "How close do Kathmandu's neighbourhoods come to the 15-minute-city ideal? This study compares two neighbourhoods by collecting data on accessibility, mobility, land use and social patterns, and uses mapping tools to visualise distances, amenities and connectivity.",
+      "methods": "Field surveys · accessibility and mobility data collection · GIS mapping of distances, amenities and connectivity",
+      "image": "/placeholders/research-map.svg",
+      "paper": ""
+    },
+    {
+      "slug": "tharu-settlement-patterns",
+      "title": "Study of Settlement Patterns Among Tharu Communities",
+      "status": "In review",
+      "year": "2025",
+      "collaborators": "",
+      "abstract": "A field-based study of the spatial logic of Tharu settlements — how dwellings, shared spaces and circulation are arranged, and what these patterns reveal about community life. Site maps, diagrams and sketches document spatial arrangements, supported by structured field notes and observations.",
+      "methods": "Field observation · site mapping, diagrams and sketches · structured written reporting",
+      "image": "/placeholders/research-settlement.svg",
+      "paper": ""
+    },
+    {
+      "slug": "landuse-pepsicola-thimi",
+      "title": "Land Use Planning and Daily Needs Accessibility: Pepsi-Cola and Thimi",
+      "status": "Ongoing",
+      "year": "2025 – ongoing",
+      "collaborators": "",
+      "abstract": "A comparative study of land use patterns and daily-needs accessibility in Pepsi-Cola and Thimi, documenting amenities and everyday access through field surveys and site visits.",
+      "methods": "Field surveys · site visits · land use documentation and comparison",
+      "image": "/placeholders/research-map.svg",
+      "paper": ""
+    }
+  ]
+}

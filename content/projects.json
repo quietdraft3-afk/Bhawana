@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "slug": "greater-tundikhel-park",
+      "title": "Greater Tundikhel Park",
+      "year": "2025",
+      "location": "Tundikhel, Tansen, Palpa",
+      "type": "International Competition",
+      "category": "Urban Park / Public Space",
+      "tags": ["public space", "inclusive design", "competition", "winner"],
+      "featured": true,
+      "award": "1st Prize — Cities for Women International Urban Design Competition (UNOPS Nepal, UN-Habitat, Cities Alliance; co-funded by the EU and USAID)",
+      "collaborators": "Bhawana Aryal, Rejina Adhikari, Smriti Sigdel, Sneha Khanal, Somya Pathak",
+      "role": "Concept development, circulation networks within and around the site, and post-production.",
+      "summary": "An inclusive, safe and contextually rich urban park in Tansen that responds to the diverse needs of women, children and the community — the winning entry of the Cities for Women International Urban Design Competition 2025.",
+      "concept": "Empowering Spaces: A Layered Landscape of Movement, Healing, and Belonging. The design creates spaces that allow for visibility, participation, comfort and care — each zone contributing to physical, emotional and social well-being.",
+      "body": "The park envisions a space where women feel seen, safe, connected and celebrated — a place where different needs and rhythms of life meet, from active movement to calm healing, from economic opportunity to social expression. The design celebrates the spirit of Tansen through local materials, public gathering spaces and symbolic elements; a market space highlights local Dhaka fabric, supporting women vendors and reflecting cultural identity.\n\nThe site is planned with a zonal layout to manage flow, access and experience. At the entrance, organised parking for 30 cars, 3 buses and 40 bikes ensures smooth vehicle flow. The marketplace sits near the entry zone, and an existing stage is retained and renovated in local stone. At the heart of the park is a sunken sports zone — a flexible open ground for football, karate and local sporting events.\n\nA women's park provides safe, shaded seating, resting spots and interactive mural walls that showcase the strength of women in society. A sand play area serves children with soft surfaces. Universal accessibility runs throughout — ramps and inclusive facilities ensure that people with disabilities, elderly users and children navigate the site with ease. Recycled materials appear in benches, shading and signage, and locally available materials keep the park cost-effective and low-maintenance.",
+      "cover": "/placeholders/project-tundikhel.svg",
+      "gallery": [
+        { "src": "/placeholders/project-tundikhel.svg", "caption": "Master plan — a layered landscape of movement, healing and belonging" },
+        { "src": "/placeholders/generic-a.svg", "caption": "Healing park area: native planting and quiet trails for mindfulness and restoration" },
+        { "src": "/placeholders/generic-b.svg", "caption": "Women's play area: a shaded, secure space with murals supporting comfort, safety and belonging" },
+        { "src": "/placeholders/generic-c.svg", "caption": "Old age park area: a quiet corner of comfort and dignity" }
+      ],
+      "coords": { "lat": 27.8675, "lng": 83.5468 }
+    },
+    {
+      "slug": "farming-retreat-center",
+      "title": "Farming Retreat Center",
+      "year": "2025",
+      "location": "Kakani, Nuwakot",
+      "type": "Thesis Project",
+      "category": "Retreat / Hospitality",
+      "tags": ["thesis", "agritourism", "wellness", "sustainability"],
+      "featured": true,
+      "award": "",
+      "collaborators": "Individual thesis project",
+      "role": "Complete design — research, concept, master planning, architectural design and visualisation.",
+      "summary": "Sow, Share and Grow — a nature-integrated retreat centre in Kakani that blends architecture, farming and people, promoting sustainable tourism and wellness through organic farming, community spaces and experiential learning.",
+      "concept": "Blending architecture, humans and farms into one harmonious environment — 'farm as living space'. Pockets of farmland sit between the built forms, so the act of growing food becomes part of the architecture itself.",
+      "body": "The design is organised into three zones. The private zone holds accommodation units where visitors find peaceful, personal space. The semi-public zone hosts educational programs, yoga and spa — places to learn about gardening and different types of farming. The public zone contains the entry hall, restaurant and open spaces, offering communal areas to gather and engage with the surroundings.\n\nBuilt forms are arranged so each one stays visible, with partially flat, walkable roofs and a distinctive W-shaped roof profile. Farming plots are placed between the buildings; fruit gardens and steps along the plots make movement easy, while a jungle walk and park invite quiet time in nature. Farming areas spread across the site so visitors can both take part in harvesting and observe the process as part of their stay.\n\nThe entry block welcomes visitors on the western side, its hall set three metres above the restaurant block. The reception is warm and welcoming — natural materials, neutral colours, exposed roof trusses and timber finishes, indoor plants and cultural wall artwork. Around the main block, active farming areas grow vegetables and strawberries beside terraced seating, helping people feel connected to nature.",
+      "cover": "/placeholders/project-retreat.svg",
+      "gallery": [
+        { "src": "/placeholders/project-retreat.svg", "caption": "Section — guard post, viewing deck, reception, restaurant block, outdoor farming" },
+        { "src": "/placeholders/generic-b.svg", "caption": "Interior of the entry hall — clear circulation and natural light" },
+        { "src": "/placeholders/generic-a.svg", "caption": "Exterior of the outdoor market area and conservatory" },
+        { "src": "/placeholders/generic-c.svg", "caption": "Gathering spots and barbeque zone within the terraced landscape" }
+      ],
+      "coords": { "lat": 27.8260, "lng": 85.2550 }
+    },
+    {
+      "slug": "sainbu-landpooling-housing",
+      "title": "Sainbu Landpooling Housing Project",
+      "year": "2023",
+      "location": "Sainbu, Bhaisipati",
+      "type": "Design Studio",
+      "category": "Housing / Community",
+      "tags": ["housing", "15-minute city", "transit-oriented", "studio"],
+      "featured": true,
+      "award": "",
+      "collaborators": "Ambika Joshi, Bhawana Aryal, Asmita Paudel, Archana Shrestha, Jayanti Neupane",
+      "role": "Site concept planning, street and utility layout, residential unit design and post-production.",
+      "summary": "A mixed-use community where all basic needs sit within a 15-minute walk — housing typologies, co-housing, urban farming and green pockets organised around transit-oriented development.",
+      "concept": "A balanced 15-minute community built on Transit-Oriented Development: a commercial hub surrounded by walkable residential neighbourhoods, parks and green spaces connected by pathways.",
+      "body": "The masterplan zones the southern portion for a community centre serving public use, the northern area for community functions, and the eastern government plot for a proposed small temple; central plots carry mixed-use and commercial programmes. Brick facades root the buildings in Kathmandu's practical, cultural and aesthetic tradition.\n\nHousing ranges across row housing, cluster housing, co-housing, bungalows and mixed residential-rental typologies, alongside a community hall, urban farming block, recreational block, futsal ground and market hub. The co-housing development centres on a shared interaction area — a gathering hub where residents build meaningful relationships.\n\nThe streetscape integrates clear signage, waste bins, green pocket parks, comfortable seating and well-marked zebra crossings, prioritising pedestrian safety and social life on the street.",
+      "cover": "/placeholders/project-sainbu.svg",
+      "gallery": [
+        { "src": "/placeholders/project-sainbu.svg", "caption": "Master plan of the Sainbu landpooling site" },
+        { "src": "/placeholders/generic-c.svg", "caption": "Zoning — open spaces, commercial, communal, mixed-use and residential" },
+        { "src": "/placeholders/generic-a.svg", "caption": "Streetscape along the cluster housing area" },
+        { "src": "/placeholders/generic-b.svg", "caption": "Urban park area and co-housing gathering hub" }
+      ],
+      "coords": { "lat": 27.6480, "lng": 85.3010 }
+    },
+    {
+      "slug": "newroad-stretch-redesign",
+      "title": "Redesign Proposal for New Road Stretch",
+      "year": "2023",
+      "location": "New Road, Kathmandu",
+      "type": "Urban Planning",
+      "category": "Streetscape Design",
+      "tags": ["streetscape", "urban design", "heritage", "pedestrian"],
+      "featured": true,
+      "award": "",
+      "collaborators": "Bhawana Aryal, Jayanti Neupane, Rejina Adhikari, Smriti Sigdel, Somya Pathak",
+      "role": "Concept to final 3D development, streetscape design, and 2D-to-3D building documentation.",
+      "summary": "A pedestrian-first redesign of one of Kathmandu's busiest commercial streets — widened walkways, green belts and plazas that reconnect New Road's everyday commerce with its historic identity.",
+      "concept": "Transforming the road into a pedestrian-friendly zone that encourages walking and cycling — a harmonious blend of nature and urban life converging toward the historic Durbar Square Plaza.",
+      "body": "The proposal prioritises pedestrian and cycling experience: a green belt adds continuous planting, cycle parking supports eco-friendly transport, and widened footpaths with greenery and seating make the street walkable, open and welcoming. Indrachowk's three road orders — primary (10m), secondary (8m) and tertiary (6m) — structure the connectivity, with streetscapes encouraging social interaction at intersections that lead naturally to Durbar Square.\n\nAlong Sukrapath, existing buildings are painted white to reflect Rana-era architecture and create a uniform historic character, while the traditional railing with Kumari essence is preserved intact — keeping the cultural identity of the place.\n\nAt Indrachowk, a park is designed as a calm oasis in the middle of the busy market: a peaceful pond ringed with seating, a chautara with a stepped platform, a kids' play zone, and jacaranda trees blooming over it all. Zebra crossings at junctions keep traffic flowing smoothly while flowers planted along the roadside soften the street.",
+      "cover": "/placeholders/project-newroad.svg",
+      "gallery": [
+        { "src": "/placeholders/project-newroad.svg", "caption": "Streetscape of Sukrapath street — white Rana-style facades and preserved railings" },
+        { "src": "/placeholders/generic-a.svg", "caption": "Proposal for the park area in Indrachowk — pond, chautara and play zone" },
+        { "src": "/placeholders/generic-b.svg", "caption": "Streetscape of Chandraman Maski Marga — widened, planted sidewalks" },
+        { "src": "/placeholders/generic-c.svg", "caption": "Land use and movement structure converging on Durbar Square" }
+      ],
+      "coords": { "lat": 27.7047, "lng": 85.3086 }
+    }
+  ]
+}

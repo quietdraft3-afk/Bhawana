@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "title": "Greater Tundikhel Park",
+      "lat": 27.8675,
+      "lng": 83.5468,
+      "category": "Project",
+      "text": "Winning entry — Cities for Women International Urban Design Competition 2025. Tansen, Palpa.",
+      "image": "/placeholders/project-tundikhel.svg",
+      "link": "/projects/greater-tundikhel-park"
+    },
+    {
+      "title": "Farming Retreat Center",
+      "lat": 27.826,
+      "lng": 85.255,
+      "category": "Project",
+      "text": "Thesis project — a nature-integrated retreat in Kakani, Nuwakot.",
+      "image": "/placeholders/project-retreat.svg",
+      "link": "/projects/farming-retreat-center"
+    },
+    {
+      "title": "Sainbu Landpooling Housing",
+      "lat": 27.648,
+      "lng": 85.301,
+      "category": "Project",
+      "text": "A 15-minute mixed-use community in Sainbu, Bhaisipati.",
+      "image": "/placeholders/project-sainbu.svg",
+      "link": "/projects/sainbu-landpooling-housing"
+    },
+    {
+      "title": "New Road Stretch Redesign",
+      "lat": 27.7047,
+      "lng": 85.3086,
+      "category": "Project",
+      "text": "Pedestrian-first streetscape proposal in the heart of Kathmandu.",
+      "image": "/placeholders/project-newroad.svg",
+      "link": "/projects/newroad-stretch-redesign"
+    },
+    {
+      "title": "Thapathali Campus, IOE",
+      "lat": 27.694,
+      "lng": 85.3165,
+      "category": "Journey",
+      "text": "Where it all began — Bachelor of Architecture, 2019–2025.",
+      "image": "/placeholders/generic-a.svg",
+      "link": "/about"
+    }
+  ]
+}

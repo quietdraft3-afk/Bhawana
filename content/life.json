@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "src": "/placeholders/life-a.svg",
+      "caption": "Field visit sketching — documenting settlements one line at a time",
+      "category": "Fieldwork"
+    },
+    {
+      "src": "/placeholders/life-b.svg",
+      "caption": "Travel moments — collecting streets, temples and skylines",
+      "category": "Travel"
+    },
+    {
+      "src": "/placeholders/life-c.svg",
+      "caption": "Event days — from exhibition halls to workshop rooms",
+      "category": "Events"
+    },
+    {
+      "src": "/placeholders/generic-b.svg",
+      "caption": "Behind the scenes at the studio",
+      "category": "Behind the scenes"
+    },
+    {
+      "src": "/placeholders/generic-c.svg",
+      "caption": "Hills above the valley — weekend wanderings",
+      "category": "Travel"
+    },
+    {
+      "src": "/placeholders/generic-a.svg",
+      "caption": "Workshop teaching — AutoCAD & SketchUp sessions",
+      "category": "Events"
+    }
+  ]
+}

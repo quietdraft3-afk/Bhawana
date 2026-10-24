@@ -1,0 +1,102 @@
+{
+  "name": "Bhawana Aryal",
+  "tagline": "Architect · Urban Design & Research · Kathmandu, Nepal",
+  "heroGreeting": "Namaste! I'm Bhawana.",
+  "heroStatement": "I'm curious about how small spaces bring people together — and how better streets and public spaces can make cities healthier and more inclusive for everyone.",
+  "heroImage": "/placeholders/portrait.svg",
+  "shortBio": "Architecture graduate from the Institute of Engineering, Thapathali Campus, now working as an Architect at Impulse Consultant in Kathmandu. Winner of the Cities for Women International Urban Design Competition 2025, and a USYC 2026 cohort member. My work moves between architecture, urban design and research — always coming back to people and the everyday life of spaces.",
+  "aboutIntro": "My interest in architecture began with simple observations — the way a small space can unite people, and the influence a neighborhood has on day-to-day life. Those observations taught me that architecture is not really about buildings; it is about the spaces in which people live and connect.",
+  "aboutBody": "Over the past five years I have grown through design studios, research fieldwork, competitions and practice. I am especially drawn to urban planning and design — to how better streets and public spaces can make cities healthier and more inclusive. Alongside design work, I research settlement patterns, accessibility and the 15-minute city, and I love documenting places through maps, sketches and photographs.\n\nOutside the studio you will find me travelling, taking photographs, organising events, and writing about the places and people I meet along the way.",
+  "philosophy": "Architecture is not about the buildings — it is about the spaces in which people themselves can live and connect.",
+  "email": "bhawana.076bar010@tcioe.edu.np",
+  "phone": "+977-9863799404",
+  "location": "Kathmandu, Nepal",
+  "linkedin": "https://www.linkedin.com/",
+  "instagram": "https://www.instagram.com/",
+  "cvFile": "/cv.pdf",
+  "usyc": {
+    "title": "USYC 2026 Cohort Member",
+    "text": "Currently part of the USYC 2026 cohort — a journey of leadership, learning and exchange with young changemakers. Reflections and experiences from the cohort will be shared in the journal.",
+    "image": "/placeholders/generic-a.svg"
+  },
+  "skills": [
+    "Revit", "AutoCAD", "SketchUp", "Lumion", "ArcGIS (Spatial Analytics)",
+    "depthmapX (Space Syntax / VGA)", "Adobe Photoshop", "Adobe Illustrator",
+    "Design Research", "Leadership & Team Coordination", "Event Management"
+  ],
+  "languages": ["Nepali (Fluent)", "English (Proficient)", "Hindi (Proficient)"],
+  "timeline": [
+    {
+      "year": "2019",
+      "title": "IOE Merit-Based Full Scholarship",
+      "text": "Ranked in the top 5% in architecture in the IOE entrance exam; began the Bachelor of Architecture at Thapathali Campus with a grant every semester."
+    },
+    {
+      "year": "2019–2025",
+      "title": "Batch Representative, B.Arch 019",
+      "text": "Represented the architecture batch of 2019 — a mediator between students and faculty, coordinating academic and extracurricular life."
+    },
+    {
+      "year": "2023",
+      "title": "Intern Architect, Morphogenesis Consultant Pvt. Ltd.",
+      "text": "Developed conceptual residential layouts responding to client needs, site orientation and climate; joined client and municipal discussions."
+    },
+    {
+      "year": "2023–2024",
+      "title": "Event Manager, Thapathali Engineering Exhibition & Fest",
+      "text": "Helped secure sponsors and manage logistics for UTSARGA 079 and Yathartha 2080."
+    },
+    {
+      "year": "May 2025",
+      "title": "Bachelor of Architecture, Tribhuvan University",
+      "text": "Graduated from the Institute of Engineering, Thapathali Campus — GPA 3.759 (71.97%). Thesis: Farming Retreat Center, Kakani."
+    },
+    {
+      "year": "June 2025",
+      "title": "Architect, Impulse Consultant Pvt. Ltd.",
+      "text": "Preparing municipal drawings, 3D models and presentations for government projects; site visits and design reviews focused on sustainable development."
+    },
+    {
+      "year": "Sept 2025",
+      "title": "Winner — Cities for Women International Urban Design Competition",
+      "text": "First prize for Greater Tundikhel Park (Public Open Spaces, Nepal). Co-funded by the European Union and USAID, implemented by UNOPS."
+    },
+    {
+      "year": "2026",
+      "title": "USYC 2026 Cohort Member",
+      "text": "Selected as a cohort member — an ongoing journey in leadership and youth collaboration."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Winner — Cities for Women International Urban Design Competition",
+      "date": "September 2025",
+      "organization": "UNOPS Nepal, UN-Habitat, Cities Alliance · co-funded by the EU and USAID",
+      "text": "First prize, Public Open Spaces, Nepal — for Greater Tundikhel Park, an inclusive urban park in Tansen designed around the needs of women, children and community."
+    },
+    {
+      "title": "IOE Merit-Based Full Scholarship",
+      "date": "2019 – 2025",
+      "organization": "Institute of Engineering, Tribhuvan University",
+      "text": "Top 5% in the IOE architecture entrance exam; full scholarship with a merit grant in every semester."
+    },
+    {
+      "title": "USYC 2026 — Cohort Member",
+      "date": "2026",
+      "organization": "USYC",
+      "text": "Current professional and leadership experience as part of the USYC 2026 cohort."
+    },
+    {
+      "title": "ARCASIA Students' Architectural Design Competition",
+      "date": "August 2023",
+      "organization": "ARCASIA",
+      "text": "Participant — Future-Ready Community Responding to the Most Challenging Social Condition."
+    },
+    {
+      "title": "Licensed Architect",
+      "date": "2025",
+      "organization": "Nepal Engineering Council",
+      "text": "Registered and licensed architect."
+    }
+  ]
+}
